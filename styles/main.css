@@ -1,0 +1,90 @@
+p {
+  font-family: 'Times New Roman', monospace, Arial;
+}
+
+h3 {
+  font-size-adjust: 15;
+}
+
+p1,
+p2 {
+  margin-bottom: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+p,
+h1,
+h2 {
+  margin-bottom: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  color: white;
+}
+
+.linkOne {
+  color: white;
+  font-size: 50px;
+  margin: 25px;
+}
+
+.linkTwo {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+body {
+  background-image: url('https://cms.accuweather.com/wp-content/uploads/2017/05/sunset-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Times New Roman', monospace, Arial;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.image-size {
+  width: 20%;
+  height: auto;
+  display: block;
+  position: relative;
+  margin: 10 auto;
+}
+
+.fontSize {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 300px) {
+  .container {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.item {
+  flex: 1 0 50px;
+  margin: 5px;
+}
