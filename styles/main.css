@@ -88,3 +88,27 @@ li {
   flex: 1 0 50px;
   margin: 5px;
 }
+
+@media screen and (max-width: 700px) {
+  .container {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.item {
+  flex: 1 0 150px;
+  margin: 10px;
+}
+
+@media screen and (man-width: 700px) {
+  .container {
+    margin: 20px;
+    display: none;
+    flex-wrap: none;
+  }
+}
+.item {
+  flex: 1 0 300px;
+  margin: 10px;
+}
