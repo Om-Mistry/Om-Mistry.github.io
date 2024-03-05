@@ -112,3 +112,10 @@ li {
   flex: 1 0 300px;
   margin: 10px;
 }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: gray;
+  padding: 20px;
+}
